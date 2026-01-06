@@ -54,7 +54,7 @@ The model demonstrated rapid convergence, successfully learning the spatial ther
 ### Visualization
 Below is the output of the model on unseen data. The AI successfully reconstructs the high-temperature equatorial regions (yellow) and cold polar regions (dark purple) from the encoded features.
 
-![Final Result](results/final_result.png)
+![Final Result](final_result.png)
 *(Left: Original Data | Center: Learning Curve | Right: AI Reconstruction)*
 
 ---
