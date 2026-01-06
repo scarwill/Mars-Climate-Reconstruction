@@ -6,9 +6,9 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## 🚀 Executive Summary
-[cite_start]This project addresses the critical challenge of **"Science Autonomy"** in deep space exploration[cite: 6]. It implements a **Generative AI** pipeline using **Vision Transformers (ViT)** to reconstruct lost atmospheric temperature telemetry from Mars.
+This project addresses the critical challenge of **"Science Autonomy"** in deep space exploration. It implements a **Generative AI** pipeline using **Vision Transformers (ViT)** to reconstruct lost atmospheric temperature telemetry from Mars.
 
-By simulating data packet loss scenarios (via Masked Modeling), the system learns the underlying thermodynamics of the Martian surface to autonomously repair incomplete scientific data maps. [cite_start]This capability is essential for future missions where bandwidth constraints and communication latency make real-time human intervention impossible[cite: 5].
+By simulating data packet loss scenarios (via Masked Modeling), the system learns the underlying thermodynamics of the Martian surface to autonomously repair incomplete scientific data maps. This capability is essential for future missions where bandwidth constraints and communication latency make real-time human intervention impossible.
 
 ---
 
@@ -16,9 +16,9 @@ By simulating data packet loss scenarios (via Masked Modeling), the system learn
 
 The system treats scientific data grids as visual tokens, leveraging the self-attention mechanism of Transformers to capture global physics correlations.
 
-* [cite_start]**Foundation Model:** Custom Vision Transformer (ViT) architecture[cite: 76].
+* **Foundation Model:** Custom Vision Transformer (ViT) architecture
 * **Methodology:** Masked Autoencoder (MAE) with an Encoder-Decoder structure.
-* [cite_start]**Data Source:** **Mars Climate Database (MCD v6.1)** - Surface Temperature Climatology[cite: 18].
+* **Data Source:** **Mars Climate Database (MCD v6.1)** - Surface Temperature Climatology.
 * **Input Resolution:** 64x64 Geospatial Grid.
 * **Patch Size:** 16x16 (Creating 16 latent tokens).
 
